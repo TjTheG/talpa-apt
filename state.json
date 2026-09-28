@@ -1,0 +1,17 @@
+{
+  "talpa-apps": {
+    "base": "0.2.0",
+    "hash": "9277b74569531e88aec71b0391b3325701c742aaa4fb1773baa628588f9082da",
+    "n": 1
+  },
+  "talpa-repo": {
+    "base": "0.1.0",
+    "hash": "ef15cac24a37876f0ff719080ed83e49383fbc87b50b4b41906db18c5b0a0080",
+    "n": 1
+  },
+  "talpa-theme": {
+    "base": "0.4.0",
+    "hash": "16c699c18295d82f4ee38a94c27fa4f60affab61ed42c92507f621eea5dc0f5e",
+    "n": 8
+  }
+}

@@ -1,0 +1,16 @@
+Date: Mon, 28 Sep 2026 17:07:57 +0000
+Description: Talpa Linux packages
+Label: Talpa Linux
+Origin: Talpa Linux
+MD5Sum:
+ 05f9a374ece1616fcc0247601e313c4c             4186 Packages
+ 654ee951c98665ecb81366781f35b744             1953 Packages.gz
+SHA1:
+ 1d7909a1986c98b398c2fe3b718a4c72bf211dd7             4186 Packages
+ f073adca6ee3fa478c91bc5f8ee346fb2fd71c1e             1953 Packages.gz
+SHA256:
+ 370f588cd2e29c7057f3ae663bb7b30d63112c9584c654ccd1c7ef729474887c             4186 Packages
+ 4ae6360745cfbf9c53d64890f4b81e561d249be0a9b17fe54104b6ffd3e0d26e             1953 Packages.gz
+SHA512:
+ d6abd4d0585debaeca0fbcbed7a0e62343600552b353defdfd46d3906f297f34780117b517aeeb2d20bdfdf7340ed3a9ddf3a475ca7f3be603354d367be477d8             4186 Packages
+ b2f77f40f365a72e13fb0a44ea7770e87eca8994f99bc80d3cc3355ed627e33d922cade8dacfbea74464aef33cc5a59dc3e5b68becf6aa3523e48792aecaebbe             1953 Packages.gz

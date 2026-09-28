@@ -1,0 +1,92 @@
+Package: fastfetch
+Architecture: amd64
+Version: 2.69.0
+Priority: optional
+Section: devel
+Maintainer: Carter Li <zhangsongcui@live.cn>
+Installed-Size: 19637
+Depends: libc6 (>= 2.35)
+Filename: pool/fastfetch_2.69.0_amd64.deb
+Size: 7192316
+MD5sum: b3f98b6492a183c8822317a71ee65a75
+SHA1: a0587d8bf54af5dd78945781bb361cd0443594ca
+SHA256: cd91bc80ba416e2089e4dd40ea087e9e02028aeeb65988f92e17ede8da1c1bda
+SHA512: 7fc3772930c8389388ea76b18faff5591952aa48aa653b4c869f47a5c727121dc6f4dabf18b9ade5103f0e49f052d0ecef90deedefd3f4c387bb6852aa621ca2
+Homepage: https://github.com/fastfetch-cli/fastfetch
+Description: Fast neofetch-like system information tool
+ fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
+
+Package: fastfetch
+Architecture: arm64
+Version: 2.69.0
+Priority: optional
+Section: devel
+Maintainer: Carter Li <zhangsongcui@live.cn>
+Installed-Size: 19528
+Depends: libc6 (>= 2.35)
+Filename: pool/fastfetch_2.69.0_arm64.deb
+Size: 7032516
+MD5sum: 10dbda831968858427faacd12dbb58ca
+SHA1: 8a4ecd05a4156ffdcabc9e6aaf1c1f015d0532b7
+SHA256: 0ce0a8d10b0390b6b4b2e1da5eb6fd840272fd21d07460caed59ba7b8a522975
+SHA512: 4017df02c365edbfa8607c9126c8cef263a425ea9473c18d7791b4ffdeaff8eadf23ae7b990fb59ade1923b90cd9d09b2d503b418861e9a1f85335355d97f034
+Homepage: https://github.com/fastfetch-cli/fastfetch
+Description: Fast neofetch-like system information tool
+ fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
+
+Package: talpa-apps
+Architecture: all
+Version: 0.2.0+1
+Priority: optional
+Section: misc
+Maintainer: TjTheG <23653975+TjTheG@users.noreply.github.com>
+Depends: talpa-repo, ca-certificates, curl, gpg, systemd
+Filename: pool/talpa-apps_0.2.0+1_all.deb
+Size: 3082
+MD5sum: e156d40f0c4bd207abb815e9214be082
+SHA1: a35c930076b1e71ca54c580bacb3379240a21695
+SHA256: 48ef6f6896fe4d15b951881230539b52ae31852e5b35184090fe49d2b94a8d9a
+SHA512: 68242b155bd266159539003b905ef0ac398e265f345e3214abc786b0e176eb027b3b4a951bae4fb98b52f8daa1a80e8197816531ae19150e50236d75e645cb66
+Description: Extra apps for Talpa Linux: Discord and Claude Code
+ Installs Claude Code (from Anthropic's signed apt repository) and Discord
+ (snap on Ubuntu, Flatpak from Flathub on Linux Mint, which turns snaps off)
+ in the background once the machine is online. Both keep updating with the
+ rest of the system.
+
+Package: talpa-repo
+Architecture: all
+Version: 0.1.0+1
+Priority: optional
+Section: misc
+Maintainer: TjTheG <23653975+TjTheG@users.noreply.github.com>
+Filename: pool/talpa-repo_0.1.0+1_all.deb
+Size: 2480
+MD5sum: 362ef65f7d405eaff1c72d581447f2c7
+SHA1: dfe51e3fd24da055c4e0a3c5c1b2005528b0fef8
+SHA256: ca9a4cac41451f0696ef1185466f32715605679e19d218c81cf58186110cc2dd
+SHA512: 1f1a51b29fee483be021c82ea5aa494582c31fbb3cab6d9009746d41f9ece40defee067489b0aa81e29b738221b2de9a224b251c9b324bfd9bfdfd58b8c1d251
+Description: Talpa Linux apt repository
+ Adds the Talpa Linux package repository and its signing key, so updates
+ to the Talpa packages arrive through Software Updater with the rest of
+ the system.
+
+Package: talpa-theme
+Architecture: all
+Version: 0.4.0+8
+Priority: optional
+Section: misc
+Maintainer: TjTheG <23653975+TjTheG@users.noreply.github.com>
+Depends: talpa-repo, dconf-cli, fastfetch, plymouth-theme-spinner, tilix
+Filename: pool/talpa-theme_0.4.0+8_all.deb
+Size: 7570104
+MD5sum: 589c9d88cdcd0ae047c3d57a0c699922
+SHA1: f9f4d06742b532c0108062882170cc22edf1ea9f
+SHA256: 5bd35beafa4958b589f59e260aacba05732efe7f4eeac9b37b098f1ca69486e2
+SHA512: b07549251737fa86bff3040d249549d1b21d0066be281f89f6eb89f7a8e37068134f900e69b725ffbf4ad309d42ec21399ef5f86420d69bf6279604bf6999f36
+Description: Talpa Linux look and branding for Ubuntu 24.04 and Linux Mint 22
+ Neon synthwave theme for GNOME (Ubuntu) and Cinnamon (Linux Mint): mole
+ wallpapers and slideshow, dark pink/magenta themes, GTA VI countdown on the
+ desktop, neon see-through terminal (Tilix, the default on Mint, and GNOME
+ Terminal) with talpa-fetch, Talpa boot menu and splash, login screen and
+ "Talpa Linux" as the system name.
+
